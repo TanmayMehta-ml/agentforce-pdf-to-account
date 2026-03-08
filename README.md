@@ -85,7 +85,26 @@ sf project deploy start --manifest manifest/package.xml --target-org agentforce-
 6. Open the Account Document Assistant agent and provide the Account ID
 
 ---
+## Demo
+### Before — Account with PDF attached, fields empty
+<img width="1919" height="745" alt="image" src="https://github.com/user-attachments/assets/4ccf9b21-c838-4296-9a29-60ea451ece57" />
+<img width="1919" height="858" alt="image" src="https://github.com/user-attachments/assets/eb708036-2ce2-4bd4-b0d7-32630423a865" />
 
+<img width="1919" height="731" alt="image" src="https://github.com/user-attachments/assets/3f341930-4e74-4d9d-983f-0f2bab7861b6" />
+<img width="1919" height="787" alt="image" src="https://github.com/user-attachments/assets/09c869aa-25e1-4a25-a613-bbd04dae9233" />
+
+### Agent extracts data from PDF
+<img width="1919" height="812" alt="image" src="https://github.com/user-attachments/assets/10a921ef-df3e-47f5-8b06-fec9643880a2" />
+<img width="1919" height="757" alt="image" src="https://github.com/user-attachments/assets/ee9bb71b-9e68-48b1-9123-de914f34c8b6" />
+
+### User confirms update
+<img width="1919" height="804" alt="image" src="https://github.com/user-attachments/assets/40ed5f01-d6e9-43f4-a3cf-9092b7de03f5" />
+
+### After reloading the page — Account fields populated automatically
+<img width="1903" height="738" alt="image" src="https://github.com/user-attachments/assets/1317e86f-739e-4fa8-a57f-8ee7ec88a7e6" />
+
+
+---
 ## Author
 
 **Tanmay Mehta**

@@ -1,0 +1,14 @@
+{
+  "required" : [ "accountID" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountID" : {
+      "title" : "accountID",
+      "description" : "The Salesforce Record ID of the Account whose document needs to be read, also it is the 18-character Salesforce Record ID of the Account whose attached document needs to be read.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

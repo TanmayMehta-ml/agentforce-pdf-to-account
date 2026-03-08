@@ -1,0 +1,77 @@
+{
+  "required" : [ "accountID" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "accountID" : {
+      "title" : "accountID",
+      "description" : "The Salesforce Record ID of the Account to be updated",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "accountName" : {
+      "title" : "accountName",
+      "description" : "Maps to the Name field on the Account object",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "accountNumber" : {
+      "title" : "accountNumber",
+      "description" : "Maps to the AccountNumber field on the Account object",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "annual_revenue" : {
+      "title" : "annual_revenue",
+      "description" : "Mapped to annual revenue for account record in $",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "billing_street" : {
+      "title" : "billing_street",
+      "description" : "Mapped to billing street on account record",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "is_active" : {
+      "title" : "is_active",
+      "description" : "mapped to Active__C on account record: Yes or No",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "phone" : {
+      "title" : "phone",
+      "description" : "Maps to the Phone field on the Account object",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "rating" : {
+      "title" : "rating",
+      "description" : "Maps to the Rating field on the Account object. Valid values: Hot, Warm, Cold",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "type" : {
+      "title" : "type",
+      "description" : "Maps to the Type field on the Account object. Valid values: Prospect, Customer - Direct, Customer - Channel, Channel Partner / Reseller, Installation Partner, Technology Partner, Other",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "website" : {
+      "title" : "website",
+      "description" : "Account website",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
